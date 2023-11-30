@@ -22,35 +22,172 @@
             <article>
                 <template id="card1">
                     <div class="p-card">
-                        <h2>Important Notes</h2>
+                        <h2>School Simulator</h2>
                         <div class="p-card__content">
-                            <p>Keep the Pypercard a <code>&lt;template id="card#"&gt;</code> or it breaks.</p>
-                            <p>For example, try changing the <code>&lt;template id="card#"&gt;</code> to <code>&lt;div id="card#"&gt;</code>, and it will trigger a <code>RuntimeError: Unable to find template for card 'card1'.</code></p>
-                            <p>Just be sure to change it back.</p>
+                            <p>You hear your alarm buzzing</p>
+                            <button id="card1A" autofocus>wakeup</button>
+                            <button id="card1B" autofocus>5 more minutes</button>
                         </div>
                     </div>
                 </template>
-                <template id="card2">
+                <template id="card1A">
                     <div class="p-card">
-                        <h2>The second card</h2>
+                        <h2>Bed</h2>
                         <div class="p-card__content">
-                            <p>This card will automatically transition to the third card after 20
-                            seconds, by calling a user defined function with some simple counting
-                            logic in it. The user defined function simply returns a string containing
-                            the name of the next card to render.</p>
-                            <p>But if you click the button, you'll transition back to the
-                            first card, and the automatic transition won't happen.</p>
-                            <button id="reset" autofocus>Reset</button>
+                            <p>You hear your alarm buzzing</p>
+                            <button id="card0C" autofocus>Dress up, you are late for school</button>
+                            <button id="card2A" autofocus>Another 5 minutes</button>
                         </div>
                     </div>
                 </template>
-                <template id="card3">
+                <template id="card2A">
                     <div class="p-card">
-                        <h2>The final card</h2>
+                        <h2>Bed</h2>
                         <div class="p-card__content">
-                            <p>That's it! This card has been displayed {counter} time[s].</p>
-                            <p>It will automatically transition back to the first after 5
-                            seconds.</p>
+                            <p>Your mom finds out you are still sleeping and beats you up</p>
+                            <button id="card1" autofocus>restart</button>
+                        </div>
+                    </div>
+                </template>
+                <template id="card1B">
+                    <div class="p-card">
+                        <h2>1st floor</h2>
+                        <div class="p-card__content">
+                            <p>You are now downstairs</p>
+                            <button id="card2B" autofocus>Go eat breakfast</button>
+                            <button id="card0C" autofocus>Go to school early for no reason</button>
+                        </div>
+                    </div>
+                </template>
+                <template id="card2B">
+                    <div class="p-card">
+                        <h2>Door/h2>
+                        <div class="p-card__content">
+                            <p>You finished eating breakfast</p>
+                            <button id="card1C" autofocus>Go to school</button>
+                            <button id="card3B" autofocus>Skip school for the convenience store</button>
+                        </div>
+                    </div>
+                </template>
+                <template id="card3B">
+                    <div class="p-card">
+                        <h2>The store</h2>
+                        <div class="p-card__content">
+                            <p>As you are buying items, your mom finds you and beats you</p>
+                            <button id="card1" autofocus>restart</button>
+                        </div>
+                    </div>
+                </template>
+                <template id="card0C">
+                    <div class="p-card">
+                        <h2>middle of the street</h2>
+                        <div class="p-card__content">
+                            <p>Turns out you didn't eat dinner and since you missed breakfast you end up passing out of hunger</p>
+                            <button id="card1" autofocus>restart</button>
+                        </div>
+                    </div>
+                </template>
+                <template id="card1C">
+                    <div class="p-card">
+                        <h2>School</h2>
+                        <div class="p-card__content">
+                            <p>You are now in school, what will you do?</p>
+                            <button id="card1D" autofocus>Go to physcial education</button>
+                            <button id="card2C" autofocus>Go to a friends class</button>
+                        </div>
+                    </div>
+                </template>
+                <template id="card2C">
+                    <div class="p-card">
+                        <h2>Random Class</h2>
+                        <div class="p-card__content">
+                            <p>The teacher finds out you are not in their class, they write you for detention and get security to put you back in your class</p>
+                            <button id="card2DB" autofocus>Go to class</button>\
+                        </div>
+                    </div>
+                </template>
+                <template id="card1D">
+                    <div class="p-card">
+                        <h2>School</h2>
+                        <div class="p-card__content">
+                            <p>It is now lunch time, what will you do?</p>
+                            <button id="card2D" autofocus>Go eat lunch</button>
+                            <button id="card3D" autofocus>Go and talk to our friends and completely neglect your stomach</button>
+                        </div>
+                    </div>
+                </template>
+                <template id="card2D">
+                    <div class="p-card">
+                        <h2>Cafeteria</h2>
+                        <div class="p-card__content">
+                            <p>It seems you forgot your wallet at school, how will you eat lunch?</p>
+                            <button id="card2DA" autofocus>Go steal lunch money from a unknowing kid</button>
+                            <button id="card4D" autofocus>Ask a friend who might think lowly of you since you asked them for money</button>
+                            <button id="card3D" autofocus>Do not eat and wait out lunch time</button>
+                        </div>
+                    </div>
+                </template>
+                <template id="card3D">
+                    <div class="p-card">
+                        <h2>Middle of The Cafeteria</h2>
+                        <div class="p-card__content">
+                            <p>you end up passing out due to hunger, turns out you worked a bit too hard in P.E.</p>
+                            <button id="card1" autofocus>Restart</button>
+                        </div>
+                    </div>
+                </template>
+                <template id="card2DA">
+                    <div class="p-card">
+                        <h2>Middle of The Cafeteria</h2>
+                        <div class="p-card__content">
+                            <p>The school sends security and you get written up for detention and you go to class</p>
+                            <button id="card2DB" autofocus>Go to after school detention</button>
+                        </div>
+                    </div>
+                </template>
+                <template id="card2DB">
+                    <div class="p-card">
+                        <h2>In the Car</h2>
+                        <div class="p-card__content">
+                            <p>After detention your mom picks you up and then beats you up</p>
+                            <button id="card1" autofocus>Restart</button>
+                        </div>
+                    </div>
+                </template>
+                <template id="card4D">
+                    <div class="p-card">
+                        <h2>Cafeteria Table</h2>
+                        <div class="p-card__content">
+                            <p>Your friends care for you and let you eat free of charge</p>
+                            <button id="card1E" autofocus>Go to class</button>
+                        </div>
+                    </div>
+                </template>
+                <template id="card1E">
+                    <div class="p-card">
+                        <h2>The Cafeteria</h2>
+                        <div class="p-card__content">
+                            <p>As the bell for lunch rang signifying it ended, you decide what to do</p>
+                            <button id="card1F" autofocus>Go to next class</button>
+                            <button id="card2E" autofocus>Go wander the halls for no reason</button>
+                        </div>
+                    </div>
+                </template>
+                <template id="card2E">
+                    <div class="p-card">
+                        <h2>The hHlls</h2>
+                        <div class="p-card__content">
+                            <p>The hall monitor was doing a sweep and you instantly get after school detention after being found. This lead to your mom picking you up after detention and beating you</p>
+                            <button id="card1" autofocus>Restart</button>
+                        </div>
+                    </div>
+                </template>
+                <template id="card1F">
+                    <div class="p-card">
+                        <h2>End of school</h2>
+                        <div class="p-card__content">
+                            <p>You finished the game and the school day</p>
+                            <button id="card1" autofocus>the cycle repeats</button>
                         </div>
                     </div>
                 </template>
