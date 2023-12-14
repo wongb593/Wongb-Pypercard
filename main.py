@@ -116,6 +116,14 @@ def reset(app, card):
 def reset(app, card):
     return "card1"
 
+@carousel_app.transition("card2E", "click", "go_carddark")
+def reset(app, card):
+    return "carddark"
+
+@carousel_app.transition("carddark", "click", "go_card1")
+def reset(app, card):
+    return "card1"
+
 @carousel_app.transition("card1F", "click", "go_card1")
 def reset(app, card):
     return "card1"
